@@ -11,13 +11,37 @@
 //     }, 1000);
 // });
 
+
+function oneSec() {
+
+  setTimeout(function() {
+    $('#left-panel').show('slide', {direction: 'left'}, 1000);
+    $('#right-panel').show('slide', {direction: 'right'}, 1000),
+       setTimeout(function() {
+        $('.logo').show('slide', {direction: 'left'}, 1000);
+      }, 1300);     
+  }, 1000);
+
+}
+
+
 $(function() {
-  $('#left-panel').show('slide', {direction: 'left'}, 1000);
-  $('#right-panel').show('slide', {direction: 'right'}, 1000);
-  $('.logo').show('slide', {direction: 'left'}, 1300);
+  
+oneSec();
+
   $('.close').on('click', function() {
-    $('#left-panel').hide('slide', {direction: 'left'}, 1000);
-    $('#right-panel').hide('slide', {direction: 'right'}, 1000);
-    $('.logo').hide('slide', {direction: 'left'}, 1300);
-  });
+      $('#left-panel').hide('slide', {direction: 'left'}, 1000);
+      $('#right-panel').hide('slide', {direction: 'right'}, 1000);
+      $('.logo').hide('slide', {direction: 'left'}, 1300);
+    });
+
+  
+
 });
+
+
+    
+
+
+
+
