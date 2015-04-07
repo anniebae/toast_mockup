@@ -27,17 +27,20 @@ body {
   width: 60%;
   height: 576px;
   float: left;
+  display: none;
 }
 
 .logo {
   margin-top: 15px;
   margin-left: 15px;
+  display: none;
 }
 
 #right-panel {
   width: 40%;
   float: left;
   text-align: center;
+  display: none;
 }
 
 .right-panel-body {
