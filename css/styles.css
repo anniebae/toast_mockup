@@ -5,11 +5,12 @@ body {
 }
 
 #wrapper {
-  background-color: white;
+  background-color: #ffffff;
   margin: auto;
   width: 1024px;
   height: 576px;
   overflow: hidden;
+  position: relative;
 }
 
 #left-panel {
@@ -39,34 +40,56 @@ body {
   text-align: center;
 }
 
+.right-panel-body {
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .product {
-  width: 80%;
+  width: 60%;
+  margin-bottom: 4%;
 }
 
 .title {
   font-size: 20px;
+  margin-bottom: 4%;
 }
 
 .description {
   font-size: 14px;
+  margin-bottom: 4%;
 }
 
 button.purchase {
-  background-color: white;
+  background-color: #ffffff;
   border: 1px solid black;
   padding: 10px;
   width: 60%;
   font-family: 'Oswald';
   font-weight: 200;
   font-size: 18px;
+  margin-bottom: 4%;
+}
+
+button.purchase:hover {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 button.close {
   border: none;
-  background-color: white;
+  background-color: #ffffff;
   font-family: 'Oswald';
   font-weight: 200;
   font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+button.close:hover {
+  color: #666666;
 }
 
 .media {
