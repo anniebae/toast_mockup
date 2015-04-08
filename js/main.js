@@ -1,7 +1,3 @@
-// new WOW (
-//   { offset: 100 }
-// ).init();
-
 // $(function() {
 //   $("#left-panel").animate({
 //     opacity: 40%;
@@ -33,9 +29,7 @@ oneSec();
       $('#left-panel').hide('slide', {direction: 'left'}, 1000);
       $('#right-panel').hide('slide', {direction: 'right'}, 1000);
       $('.logo').hide('slide', {direction: 'left'}, 1300);
-    });
-
-  
+    });  
 
 });
 

@@ -1,0 +1,117 @@
+body {
+  background-color: lightblue;
+  font-family: 'Oswald';
+  font-weight: 200;
+}
+
+#wrapper {
+  background-color: #ffffff;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 70%;
+}
+
+#left-panel {
+  background: #b69cca; /* Old browsers */
+  background: -moz-linear-gradient(top,  #b69cca 0%, #c19e67 50%, #b68d4c 99%, #e9d4b3 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b69cca), color-stop(50%,#c19e67), color-stop(99%,#b68d4c), color-stop(100%,#e9d4b3)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #b69cca 0%,#c19e67 50%,#b68d4c 99%,#e9d4b3 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #b69cca 0%,#c19e67 50%,#b68d4c 99%,#e9d4b3 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #b69cca 0%,#c19e67 50%,#b68d4c 99%,#e9d4b3 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #b69cca 0%,#c19e67 50%,#b68d4c 99%,#e9d4b3 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b69cca', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
+
+  opacity: 40%;
+  width: 60%;
+  height: 576px;
+  float: left;
+  display: none;
+}
+
+.logo {
+  margin-top: 15px;
+  margin-left: 15px;
+  display: none;
+}
+
+#right-panel {
+  width: 40%;
+  float: left;
+  text-align: center;
+  display: none;
+}
+
+.right-panel-body {
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.product {
+  width: 60%;
+  margin-bottom: 4%;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 4%;
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 4%;
+}
+
+button.purchase {
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 10px;
+  width: 60%;
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-size: 18px;
+  margin-bottom: 4%;
+}
+
+button.purchase:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+button.close {
+  border: none;
+  background-color: #ffffff;
+  font-family: 'Oswald';
+  font-weight: 200;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+button.close:hover {
+  color: #666666;
+}
+
+.media {
+  height: 15px;
+}
+
+.close {
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  #left-panel {
+    width: 100%;
+    height: 250px;
+    float: none;
+  }
+
+  #right-panel {
+    width: 100%;
+    float: none;
+  }
+}
