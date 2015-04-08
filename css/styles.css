@@ -73,6 +73,7 @@ button.purchase {
   font-weight: 200;
   font-size: 18px;
   margin-bottom: 4%;
+  color: black;
 }
 
 button.purchase:hover {
