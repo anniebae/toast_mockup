@@ -1,11 +1,9 @@
 body {
   font-family: 'Oswald';
   font-weight: 200;
-  background-color: lightblue;
 }
 
 #wrapper {
-  background-color: #ffffff;
   margin: 5% auto;
   overflow: hidden;
   position: relative;
@@ -23,7 +21,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b69cca', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
   opacity: 40%;
   width: 60%;
-  height: 60vh;
+  height: 576px;
   float: left;
   display: none;
   padding-left: 0px;
@@ -42,11 +40,10 @@ body {
   padding-right: 0px;
   text-align: center;
   width: 40%;
-  vertical-align: middle;
 }
 
 .right-panel-body {
-  margin-top: 7.5%;
+  margin-top: 20%;
   margin-left: 10%;
   margin-right: 10%;
   display: inline-block;
@@ -117,9 +114,10 @@ button.close {
   height: 15px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 701px) {
   #left-panel {
     width: 100%;
+    height: 500px;
   }
   #right-panel {
     width: 100%;
@@ -128,3 +126,14 @@ button.close {
     height: 25%;
   }
 }
+
+@media screen and (max-width: 550px) {
+  #left-panel {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 403px) {
+  #left-panel {
+    height: 300px;
+  }
