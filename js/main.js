@@ -13,6 +13,5 @@ $(function() {
   $('.close').on('click', function() {
       $('#left-panel').hide('slide', {direction: 'left'}, 1000);
       $('#right-panel').hide('slide', {direction: 'right'}, 1000);
-      $('.logo').hide('slide', {direction: 'left'}, 1300);
     });  
 });
